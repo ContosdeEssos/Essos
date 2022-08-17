@@ -1,0 +1,318 @@
+/* Página */
+
+@font-face {
+  font-family: Vecna;
+  src: url(fonte/Vecna-oppx.ttf);
+}
+
+body{
+  background: url(galeria/pagina/fundo.jpg) center center no-repeat fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0px;
+  letter-spacing: 1px;
+  font-family: Vecna;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #161619;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #dc143c;
+  border-radius: 16px;
+}
+
+.logo img{
+  max-width:100%;
+  margin-bottom: -1px;
+}
+
+.links {
+  text-align: center;
+  word-spacing: 30px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  background-color: #161619;
+  margin-top: -5px;
+  margin-bottom: 50px;
+  max-width: 100%;
+  font-size: 30px;  
+}
+
+.links img { 
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.links2 {
+  width: 300px;
+  text-align: left;
+}
+
+.links3:hover {
+  text-shadow: 0 0 20px #eceff1, 0 0 15px #eceff1;
+}
+
+a  {
+  color: #eceff1;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.biblioteca {
+  border-radius: 15px;
+  word-spacing: 7px;
+}
+
+.banner {
+  border-radius: 15px;
+  word-spacing: 7px;
+
+}
+
+.texto  {
+  background: linear-gradient(
+    13deg,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1),
+  );
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow: 0 8px 32px 0 #1e1e1e;
+  border-radius: 24px;
+  color: #eceff1;
+  margin: auto;
+  display: block;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 65%;
+  font-size: 40px ;
+}
+
+.texto p {
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
+
+.textferra p{
+  font-size: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.imgferra {
+  padding-top: 45px;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+hr {
+  width: 60%;
+  height: 2px;
+  background-color:#eceff1;
+  margin-top: 25px;
+  margin-bottom: 35px;
+  border: none;
+  opacity: 20%;
+}
+
+.ferramentas:hover {
+  text-decoration: none;
+}
+
+/* Contato */
+
+.contato  {
+  background-color: #161619;
+  color: #eceff1;
+  padding: 1px 40px 20px 15px;
+  margin: auto;
+  display: block;
+  width: 350px;
+  text-align: left;
+  font-size: large;
+  border-radius: 20px;
+}
+
+label {
+  font-size: 25px;
+}
+
+.contato h1 {
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 35px;
+}
+
+.contato input {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  outline:none;
+  padding: 10px;
+  transition: all 0.5s;
+}
+
+.contato input:focus {
+  border-radius: 15px;
+}
+
+.contato textarea:focus {
+  border-radius: 15px;
+}
+
+.contato textarea {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  outline:none;
+  padding: 10px;
+}
+
+.contato button {
+  font-family: Vecna;
+  background-color: #161619;
+  color: #eceff1;
+  border: 0px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: x-large;
+  width: 100%;
+}
+
+.contato button:hover {
+  color: #fff;
+  text-shadow: 0 0 20px #fff, 0 0 15px #fff;
+}
+
+.obrigado  {
+  font-size: 30px;
+  background-color: #161619;
+  color: #eceff1;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  margin-top: 15%;
+  margin-left:20% ;
+  margin-right:20% ;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.btncont {
+  background-color: #161619;
+  color: #eceff1;
+  font-size: 40px;
+}
+
+/* Ficha */
+
+.ficha  {
+  margin: auto;
+  display: block;
+  background-color: #161619;
+  color: #eceff1;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 43%;
+  height: 90%;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.pdfview {
+  margin: auto;
+  display: block;
+  width: 100%;
+  height: 1060px;
+  border-radius: 20px;
+}
+
+.fichalinks {
+  text-align: left;
+}
+
+.fichalinks li {
+  padding-bottom: 15px;
+}
+
+/* card */ 
+
+.flip-card {
+  background-color: transparent;
+  width: 400px;
+  height: 400px;
+  perspective: 1000px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 16px;
+}
+
+
+.flip-card-front img {
+  width: 220px;
+  margin-top: 1rem;
+}
+
+.flip-card-front h1 {
+  margin-top: -0.4rem;
+  font-size: 50px;
+}
+
+.flip-card-back {
+  color: #eceff1;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back img {
+  width: 140px;
+  margin-top: 1rem;
+}
+
+.flip-card-back p {
+  margin-bottom: 1.5rem;
+  font-size: 25px;
+}
+
+.flip-card-back h2 {
+  margin: 0;
+  font-size: 30px;
+}
